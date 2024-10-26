@@ -1,0 +1,21 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Johnny\Documents\SERRATEC-2024-2\React> npm create vite@latest
+
+> npx
+> create-vite
+
+√ Project name: ... primeira-aula
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\Users\Johnny\Documents\SERRATEC-2024-2\React\primeira-aula...
+
+Done. Now run:
+
+  cd primeira-aula
+  npm install
+  npm run dev
