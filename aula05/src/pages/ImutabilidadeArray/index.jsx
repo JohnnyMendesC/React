@@ -3,10 +3,6 @@ import { Container, Title } from "./style";
 
 
 export const ImutabilidadeArray = () => {
-    const[openModal, setOpenModal] = useState(false)
-    const handleOpenModal = () => {
-        setOpenModal(!openModal)
-    }
     // Funções
 
     const [newPost, setNewPost] = useState("");
@@ -26,10 +22,6 @@ export const ImutabilidadeArray = () => {
     // Estrutura da Página
     return (
         <Container>
-            <button onClick={handleOpenModal}></button>
-            {openModal &&
-            <p>Abriu Teste se não for não foi</p> }
-
             <Title>
                 Imutabilidade Array
             </Title>

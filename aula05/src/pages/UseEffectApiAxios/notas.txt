@@ -1,0 +1,15 @@
+COMO FAZIA:
+fetch('https://api.github.com/', {
+    method: 'POST',
+    headers: {
+        'Content-Type: 'application/json',
+    }
+}).then().then().catch()
+
+COMO É COM AXIOS:
+const headers = {
+    'Content-Type: 'application/json'
+}
+axios.get('https://api.github.com/') (headers:headers)
+axios.post('https://api.github.com/')
+axios.get('https://api.github.com/')

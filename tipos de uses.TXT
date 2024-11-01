@@ -1,0 +1,32 @@
+
+
+Componente de Decisao:
+Bom para status de pedido, erro, sucesso
+//funções:
+const [carregando, setCarregando] = useState('carregando...');
+
+const DecisaoComponente = ({status}) => {
+//DecisaoComponente maiusculo pois ele é um componente
+	switch(status){
+		case 'loading':
+			return <p>Carregando</p>
+		case 'success':
+			return <p>Sucesso</p>
+		case 'error':
+			return <ComponentError/> //retornando um componente
+		default :
+			return <p>Status não reconhecido</p>
+	}	
+}
+
+const ComponenteError = () => {
+	return <p>Componente de erro</p>
+}
+
+//estrutura da pagina:
+return (
+	<Container>
+	<DecisaoComponente status={carregando}>
+	<Button onClick{() => setCarregando('error')}>Trocar status</Button>
+	</Container>
+)
