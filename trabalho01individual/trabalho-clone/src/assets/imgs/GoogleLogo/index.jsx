@@ -1,6 +1,5 @@
 import React from 'react';
 import GoogleLogo from './GoogleLogo.png';
-import { DivImagem } from './style';
 
 export const GoogleLogoImage = () => {
   return (

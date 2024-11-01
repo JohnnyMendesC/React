@@ -13,8 +13,15 @@ export const EstiloDeInput = styled.input`
   font-size: 16px;
   margin-bottom: 3px;
 
+  // Estilo para o placeholder
   &::placeholder {
     font-size: 16px;
     color: #a9a9a9;
+  }
+
+  // Estilo pra quando o input está em foco
+  &:focus {
+    border: 1px solid #9ac0da;
+    outline: #9ac0da solid 1px ;
   }
 `;
