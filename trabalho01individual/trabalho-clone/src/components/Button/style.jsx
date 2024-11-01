@@ -8,7 +8,7 @@ export const EstiloDeBotao = styled.button`
     cursor: pointer;
     padding: 10px;
 
-    // Efeito quando o mouse passa sobre o botão
+    // Efeito para quando o mouse passa sobre o botão
     &:hover {
     filter: brightness(1.2)
     }
