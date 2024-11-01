@@ -1,0 +1,5 @@
+Quando voce sai do feed, vai pra outra 
+pagina, e volta pro feed, ele pode manter
+ou não as postagens.
+Mas quando voce clica em atualizar, ele
+vai trazer novas postagens para o usuario
