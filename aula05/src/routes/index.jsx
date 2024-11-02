@@ -4,6 +4,7 @@ import { Login } from '../pages/Login'
 import { Home } from '../pages/Home'
 import { PageError } from '../pages/PageError'
 import { Layout } from '../components/Layout'
+import { ProviderProps } from '../hooks/useProps'
 
 export const Routers = () => {
 
@@ -17,11 +18,13 @@ export const Routers = () => {
                 <Route path='/login' element={<Login />} />
                 {/* </ContextoGeral> */}
                 
-            <Route element={<Layout />}>
-                {/* <ContextoAlunos> */}
-                <Route path='/home' element={<Home />} />
-                {/* </ContextoAlunos> */}
-            </Route>
+                {/* <ProviderProps> */}
+                    <Route element={<Layout />}>
+                        {/* <ContextoAlunos> */}
+                        <Route path='/home' element={<Home />} />
+                        {/* </ContextoAlunos> */}
+                    </Route>
+                {/* </ProviderProps> */}
 
                 {/* <AuthContext> */}
                 <Route path='/diretor' element={<PageError message={messageAccessDenied} />} />
